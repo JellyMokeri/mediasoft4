@@ -35,7 +35,7 @@ insert into users (name, last_name, email)
 	
 select id, name, last_name from users where name = 'Dmitriy' and id >= 5 limit 1;
 
-update users set name = 'Maksim' and last_name = 'Sergeev' and email = 'mihailsergeev@gmail.com' where id = 6;
+update users set name = 'Maksim' and last_name = 'Sergeev' and email = 'maksimsergeev@gmail.com' where id = 6;
 
 select email from users where id in (1,3,5,7,9);
 
